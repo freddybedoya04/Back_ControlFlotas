@@ -31,7 +31,7 @@ namespace ApiRestControlFlota.Models
         public double? VIA_Utilidades { get; set; }
         public bool? VIA_Habilitado{ get; set; }
         public DateTime? VIA_TimeStand { get; set; }
-        public bool? VIA_Peso { get; set; }
+        public double? VIA_Peso { get; set; }
 
     }
 }
