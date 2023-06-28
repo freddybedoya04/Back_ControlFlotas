@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos Personales\\Control de flotas\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota\\ApiRestControlFlota.csproj": {}
+    "C:\\Users\\Hagav\\source\\repos\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos Personales\\Control de flotas\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota\\ApiRestControlFlota.csproj": {
+    "C:\\Users\\Hagav\\source\\repos\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos Personales\\Control de flotas\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota\\ApiRestControlFlota.csproj",
+        "projectUniqueName": "C:\\Users\\Hagav\\source\\repos\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota.csproj",
         "projectName": "ApiRestControlFlota",
-        "projectPath": "D:\\Proyectos Personales\\Control de flotas\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota\\ApiRestControlFlota.csproj",
-        "packagesPath": "C:\\Users\\fredd\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos Personales\\Control de flotas\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota\\obj\\",
+        "projectPath": "C:\\Users\\Hagav\\source\\repos\\Back_ControlFlotas\\ApiRestControlFlota\\ApiRestControlFlota.csproj",
+        "packagesPath": "C:\\Users\\Hagav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hagav\\source\\repos\\Back_ControlFlotas\\ApiRestControlFlota\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fredd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hagav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

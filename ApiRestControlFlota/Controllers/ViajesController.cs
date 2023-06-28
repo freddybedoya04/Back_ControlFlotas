@@ -31,7 +31,14 @@ namespace ApiRestControlFlota.Controllers
 
             return Ok(catalogo.ListarViajesPorVehiculo(Filtro));
         }
+        [HttpPost]
+        [Route("ListarViajesPorConductor")]
+        public async Task<IActionResult> ListarViajesPorConductor([FromBody] DTOBusqueda Filtro)
+        {
+            CatalogoViajes catalogo = new CatalogoViajes(myDbContext);
 
+            return Ok(catalogo.ListarViajesPorConductor(Filtro));
+        }
         [HttpPost]
         [Route("AgregarViaje")]
         public async Task<IActionResult> AgregarViaje([FromBody] Viajes Viaje)

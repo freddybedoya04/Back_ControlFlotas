@@ -28,6 +28,27 @@ namespace ApiRestControlFlota.Catalogos
                 throw ex;
             }
         }
+        public List<Viajes> ListarViajesPorConductor(DTOBusqueda Filtro)
+        {
+            try
+            {
+                int conductorId = int.Parse(Filtro.Conductor);
+
+                List<Viajes> Viajes = myDbContext.Viajes.Where(x =>
+                    x.VIA_Habilitado == true &&
+                    x.VIA_FechaInicio >= Filtro.FechaInicio &&
+                    x.VIA_FechaInicio <= Filtro.FechaFin &&
+                    x.CON_CedulaConductor == conductorId).ToList();
+
+                return Viajes;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
 
         public List<Viajes> ListarViajesPorVehiculo(DTOBusqueda Filtro)
         {
