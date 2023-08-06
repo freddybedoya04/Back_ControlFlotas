@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0vM3bxcV9zU7eSstxkm4AoconrVyuen6Ewy+VmGvBys=",
+  "Source": "ApiRestControlFlota",
+  "BasePath": "_content/ApiRestControlFlota",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

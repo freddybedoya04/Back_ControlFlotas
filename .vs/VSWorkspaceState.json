@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ApiRestControlFlota",
+    "\\ApiRestControlFlota\\Catalogos",
+    "\\ApiRestControlFlota\\Controllers"
   ],
-  "SelectedNode": "\\ApiRestControlFlota.sln",
   "PreviewInSolutionExplorer": false
 }
